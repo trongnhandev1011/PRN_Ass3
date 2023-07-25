@@ -1,0 +1,73 @@
+﻿@model ODataBookStore.Web.Models.BookModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit book detail</h1>
+
+<hr />
+<form asp-action="Edit">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" disabled />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-4">
+                <label asp-for="ISBN" class="control-label"></label>
+                <input asp-for="ISBN" class="form-control" />
+                <span asp-validation-for="ISBN" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-4">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-4">
+                <label asp-for="Author" class="control-label"></label>
+                <input asp-for="Author" class="form-control" />
+                <span asp-validation-for="Author" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-4">
+                <label asp-for="Location.City" class="control-label"></label>
+                <input asp-for="Location.City" class="form-control" />
+                <span asp-validation-for="Location.City" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-4">
+                <label asp-for="Location.Street" class="control-label"></label>
+                <input asp-for="Location.Street" class="form-control" />
+                <span asp-validation-for="Location.Street" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-4">
+                <label asp-for="PressId" class="control-label"></label>
+                <select asp-for="PressId" class="form-control" asp-items="ViewBag.Presses"></select>
+                <span asp-validation-for="PressId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group d-flex justify-content-center mt-4">
+            <div>
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a> 
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

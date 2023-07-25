@@ -1,0 +1,12 @@
+C:\Users\ZENBOOK\Documents\GitHub\BookManagement_PRN231\ODataBookStore.BusinessObject\bin\Debug\net6.0\ODataBookStore.BusinessObject.deps.json
+C:\Users\ZENBOOK\Documents\GitHub\BookManagement_PRN231\ODataBookStore.BusinessObject\bin\Debug\net6.0\ODataBookStore.BusinessObject.dll
+C:\Users\ZENBOOK\Documents\GitHub\BookManagement_PRN231\ODataBookStore.BusinessObject\bin\Debug\net6.0\ODataBookStore.BusinessObject.pdb
+C:\Users\ZENBOOK\Documents\GitHub\BookManagement_PRN231\ODataBookStore.BusinessObject\obj\Debug\net6.0\ODataBookStore.BusinessObject.csproj.AssemblyReference.cache
+C:\Users\ZENBOOK\Documents\GitHub\BookManagement_PRN231\ODataBookStore.BusinessObject\obj\Debug\net6.0\ODataBookStore.BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ZENBOOK\Documents\GitHub\BookManagement_PRN231\ODataBookStore.BusinessObject\obj\Debug\net6.0\ODataBookStore.BusinessObject.AssemblyInfoInputs.cache
+C:\Users\ZENBOOK\Documents\GitHub\BookManagement_PRN231\ODataBookStore.BusinessObject\obj\Debug\net6.0\ODataBookStore.BusinessObject.AssemblyInfo.cs
+C:\Users\ZENBOOK\Documents\GitHub\BookManagement_PRN231\ODataBookStore.BusinessObject\obj\Debug\net6.0\ODataBookStore.BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\ZENBOOK\Documents\GitHub\BookManagement_PRN231\ODataBookStore.BusinessObject\obj\Debug\net6.0\ODataBookStore.BusinessObject.dll
+C:\Users\ZENBOOK\Documents\GitHub\BookManagement_PRN231\ODataBookStore.BusinessObject\obj\Debug\net6.0\refint\ODataBookStore.BusinessObject.dll
+C:\Users\ZENBOOK\Documents\GitHub\BookManagement_PRN231\ODataBookStore.BusinessObject\obj\Debug\net6.0\ODataBookStore.BusinessObject.pdb
+C:\Users\ZENBOOK\Documents\GitHub\BookManagement_PRN231\ODataBookStore.BusinessObject\obj\Debug\net6.0\ref\ODataBookStore.BusinessObject.dll

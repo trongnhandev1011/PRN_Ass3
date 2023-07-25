@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ODataBookStore.API",
+    "\\ODataBookStore.API\\Controllers",
+    "\\ODataBookStore.Web"
+  ],
+  "SelectedNode": "\\ODataBookStore.Web\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
