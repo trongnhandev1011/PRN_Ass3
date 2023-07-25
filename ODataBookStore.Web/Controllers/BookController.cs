@@ -16,7 +16,7 @@ namespace ODataBookStore.Web.Controllers
     [Authorize]
     public class BookController : Controller
     {
-        private string endpoint = "https://localhost:1433/odata";
+        private string endpoint = "https://localhost:7129/odata";
         // GET: BookController
         public async Task<ActionResult> Index(int page = 1, string search = "")
         {

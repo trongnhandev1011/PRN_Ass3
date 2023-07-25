@@ -8,7 +8,7 @@ namespace ODataBookStore.Web.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private string endpoint = "https://localhost:1433";
+        private string endpoint = "https://localhost:7129";
 
         public HomeController(ILogger<HomeController> logger)
         {

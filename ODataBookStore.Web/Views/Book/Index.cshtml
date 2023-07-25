@@ -113,13 +113,9 @@
 @section Scripts {
     <script type="text/javascript">
         function fetchData() {
-            fetch("https://localhost:1433/odata/books", {
+            fetch("https://localhost:7129/odata/books", {
                 method: "GET",
                 headers: {
-                    "Access-Control-Allow-Origin": "*",
-                    "Access-Control-Allow-Headers": "Authorization",
-                    "Access-Control-Allow-Credentials": true,
-                    "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE",
                     "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6Im5oYW5oZXJvIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Im5oYW5oZXJvIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiVXNlciIsImV4cCI6MTY5MDI5NzY1OSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo0MDAwIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo0MDAwIn0.9N3LTcuA2RM2He3E4N91LRswyVVxAYaoJztVqPNdtuQ"
                 }
             }).then((response) => response.json())
