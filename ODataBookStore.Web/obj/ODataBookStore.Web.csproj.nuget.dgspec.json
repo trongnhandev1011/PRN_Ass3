@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.Web\\ODataBookStore.Web.csproj": {}
+    "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.Web\\ODataBookStore.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.BusinessObject\\ODataBookStore.BusinessObject.csproj": {
+    "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.BusinessObject\\ODataBookStore.BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.BusinessObject\\ODataBookStore.BusinessObject.csproj",
+        "projectUniqueName": "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.BusinessObject\\ODataBookStore.BusinessObject.csproj",
         "projectName": "ODataBookStore.BusinessObject",
-        "projectPath": "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.BusinessObject\\ODataBookStore.BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\ZENBOOK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.BusinessObject\\obj\\",
+        "projectPath": "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.BusinessObject\\ODataBookStore.BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\kiman\\.nuget\\packages\\",
+        "outputPath": "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ZENBOOK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kiman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,24 +59,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.DataAccess\\ODataBookStore.DataAccess.csproj": {
+    "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.DataAccess\\ODataBookStore.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.DataAccess\\ODataBookStore.DataAccess.csproj",
+        "projectUniqueName": "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.DataAccess\\ODataBookStore.DataAccess.csproj",
         "projectName": "ODataBookStore.DataAccess",
-        "projectPath": "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.DataAccess\\ODataBookStore.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\ZENBOOK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.DataAccess\\obj\\",
+        "projectPath": "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.DataAccess\\ODataBookStore.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\kiman\\.nuget\\packages\\",
+        "outputPath": "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ZENBOOK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kiman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -86,15 +85,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.BusinessObject\\ODataBookStore.BusinessObject.csproj": {
-                "projectPath": "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.BusinessObject\\ODataBookStore.BusinessObject.csproj"
+              "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.BusinessObject\\ODataBookStore.BusinessObject.csproj": {
+                "projectPath": "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.BusinessObject\\ODataBookStore.BusinessObject.csproj"
               }
             }
           }
@@ -150,24 +148,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.Web\\ODataBookStore.Web.csproj": {
+    "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.Web\\ODataBookStore.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.Web\\ODataBookStore.Web.csproj",
+        "projectUniqueName": "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.Web\\ODataBookStore.Web.csproj",
         "projectName": "ODataBookStore.Web",
-        "projectPath": "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.Web\\ODataBookStore.Web.csproj",
-        "packagesPath": "C:\\Users\\ZENBOOK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.Web\\obj\\",
+        "projectPath": "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.Web\\ODataBookStore.Web.csproj",
+        "packagesPath": "C:\\Users\\kiman\\.nuget\\packages\\",
+        "outputPath": "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ZENBOOK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kiman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -176,18 +174,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.BusinessObject\\ODataBookStore.BusinessObject.csproj": {
-                "projectPath": "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.BusinessObject\\ODataBookStore.BusinessObject.csproj"
+              "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.BusinessObject\\ODataBookStore.BusinessObject.csproj": {
+                "projectPath": "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.BusinessObject\\ODataBookStore.BusinessObject.csproj"
               },
-              "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.DataAccess\\ODataBookStore.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\ZENBOOK\\Documents\\GitHub\\BookManagement_PRN231\\ODataBookStore.DataAccess\\ODataBookStore.DataAccess.csproj"
+              "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.DataAccess\\ODataBookStore.DataAccess.csproj": {
+                "projectPath": "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.DataAccess\\ODataBookStore.DataAccess.csproj"
               }
             }
           }
@@ -230,7 +227,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
