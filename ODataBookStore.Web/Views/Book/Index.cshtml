@@ -14,13 +14,9 @@
         </button>
     </div>
 }
-<form asp-action="Index" method="get">
-    <input name="page" value="1" hidden />
-    <input name="search" value="@(ViewBag.Search)" />
-    <input type="submit" value="Search" class="btn" />
-</form>
 
-<table class="table mt-4">
+<table class="table mt-4" id="book-table">
+    <thead>
     <tr>
         <th>Id</th>
         <th>ISBN</th>
@@ -29,99 +25,29 @@
         <th>Price</th>
         <th>Press name</th>
     </tr>
-    <tbody></tbody>
-</table>
-
-@*<table class="table mt-4">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Id)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ISBN)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Author)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                Press name
-            </th>
-            <th></th>
-        </tr>
     </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Id)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ISBN)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Title)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Author)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Price)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Press.Name)
-                </td>
-                <td>
-
-                    @Html.ActionLink("Details", "Details", new {  id=item.Id  })
-                    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
-                    {
-                        @Html.ActionLink("Edit", "Edit", new {  id=item.Id  })
-                        @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-                    }
-
-                </td>
-            </tr>
-        }
-    </tbody>
 </table>
-*@
-<div class="d-flex gap-2" style="margin-top: 40px">
-    Page:
-    @for (int i = 1; i <= ViewBag.TotalPage; i++)
-    {
-        <span class="@(i == ViewBag.Page ? "text-blue" : "text-black")">@(i)</span>
-    }
-</div>
-
-@if (ViewBag.Page > 1 && ViewBag.TotalPage > 1)
-{
-    <a asp-action="Index" asp-route-page="@(ViewBag.Page - 1)" asp-route-search="@(ViewBag.Search)">Previous</a>
-}
-@if (ViewBag.Page < ViewBag.TotalPage && ViewBag.TotalPage > 1)
-{
-    <a asp-action="Index" asp-route-page="@(ViewBag.Page + 1)" asp-route-search="@(ViewBag.Search)">Next</a>
-}
 
 @section Scripts {
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript">
-        function fetchData() {
+        $(document).ready(function () {
             fetch("https://localhost:7129/odata/books", {
                 method: "GET",
                 headers: {
-                    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6Im5oYW5oZXJvIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Im5oYW5oZXJvIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiVXNlciIsImV4cCI6MTY5MDI5NzY1OSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo0MDAwIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo0MDAwIn0.9N3LTcuA2RM2He3E4N91LRswyVVxAYaoJztVqPNdtuQ"
+                    "Content-Type": "application/json",
+                    "Authorization": "Bearer " + localStorage.getItem('book_token')
                 }
             }).then((response) => response.json())
-                .then(data => console.log(data))
-        }
+                .then(data => {
 
-        fetchData()
+                    const items = data.value;
+                    $("#book-table").DataTable({
+                        data: items.map((item) => [item.Id, item.ISBN, item.Title, item.Author, item.Price, item.PressId]),
+                    });
+
+                })
+           
+        });
     </script>
 }
