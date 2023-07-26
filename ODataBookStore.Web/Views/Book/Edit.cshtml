@@ -71,7 +71,8 @@
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
     <script>
-        const id = window.location.href[window.location.href.length -1];
+        const index = window.location.href.lastIndexOf('/');
+        const id = window.location.href.slice(index + 1)
 
         $("#edit-form").on("submit", function (event) {
             event.preventDefault();
