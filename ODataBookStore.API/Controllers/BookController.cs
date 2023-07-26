@@ -22,7 +22,7 @@ namespace ODataBookStore.API.Controllers
         }
 
         [HttpGet]
-      /*  [Authorize(Roles = "Admin,User")]*/
+        [Authorize(Roles = "Admin,User")]
         [EnableQuery]
         public ActionResult Get()
         {

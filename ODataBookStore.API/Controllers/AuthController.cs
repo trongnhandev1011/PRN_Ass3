@@ -25,12 +25,12 @@ namespace ODataBookStore.API.Controllers
 
             var account = _accountRepository.FirstOrDefault(expression: x => x.Username == request.Username && x.Password == request.Password);
 
-            if(account == null)
+            if (account == null)
             {
                 return Unauthorized();
             }
 
-            return Ok(new { accessToken = _jwtService.GenerateJSONWebToken(account) });
+            return Ok(new { accessToken = _jwtService.GenerateJSONWebToken(account), role = account.Role });
         }
 
 

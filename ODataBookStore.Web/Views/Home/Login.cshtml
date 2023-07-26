@@ -47,6 +47,7 @@
                 password: params.get("password")
                 }),
                 success: function (result) {
+                    localStorage.setItem("role", result.role);
                     localStorage.setItem("book_token", result.accessToken);
                     Cookies.set("token", result.accessToken);
                     window.location.replace("/Book/Index");

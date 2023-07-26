@@ -7,7 +7,7 @@
 <h1>Edit book detail</h1>
 
 <hr />
-<form asp-action="Edit">
+<form method="post" id="edit-form">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
     <div class="row">
         <div class="col-md-6">
@@ -40,12 +40,12 @@
             </div>
             <div class="form-group mt-4">
                 <label asp-for="Location.City" class="control-label"></label>
-                <input asp-for="Location.City" class="form-control" />
+                <input name="City" asp-for="Location.City" class="form-control" />
                 <span asp-validation-for="Location.City" class="text-danger"></span>
             </div>
             <div class="form-group mt-4">
                 <label asp-for="Location.Street" class="control-label"></label>
-                <input asp-for="Location.Street" class="form-control" />
+                <input name="Street" asp-for="Location.Street" class="form-control" />
                 <span asp-validation-for="Location.Street" class="text-danger"></span>
             </div>
             <div class="form-group mt-4">
@@ -63,11 +63,43 @@
 </form>
 
 <div>
-    <a asp-action="Index">Back to List</a> 
+    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
+    <script>
+        const id = window.location.href[window.location.href.length -1];
+
+        $("#edit-form").on("submit", function (event) {
+            event.preventDefault();
+            var form = $(this);
+            const params = new URLSearchParams(form.serialize());
+            var actionUrl = `https://localhost:7129/odata/books/${id}`
+            $.ajax({
+                headers: {
+                    "Authorization": "Bearer " + localStorage.getItem('book_token')
+                },
+                contentType: "application/json",
+                url: actionUrl,
+                method: "put",
+                data: JSON.stringify({
+                    ISBN: params.get("ISBN"),
+                    title: params.get("Title"),
+                    author: params.get("Author"),
+                    price: params.get("Price"),
+                    location: {
+                        city: params.get("City"),
+                        street: params.get("Street")
+                    },
+                    pressId: params.get("PressId")
+                }),
+                success: function (result) {
+                    window.location.replace("/Book/Index");
+                }
+            });
+        });
+    </script>
 }

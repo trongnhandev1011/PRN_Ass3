@@ -9,77 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ODataBookStore.Web
 build_property.RootNamespace = ODataBookStore.Web
-build_property.ProjectDir = F:\university\PRN231\PRN_Ass3\ODataBookStore.Web\
+build_property.ProjectDir = D:\GitHub\PRN_Ass3\ODataBookStore.Web\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\university\PRN231\PRN_Ass3\ODataBookStore.Web
+build_property.MSBuildProjectDirectory = D:\GitHub\PRN_Ass3\ODataBookStore.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/university/PRN231/PRN_Ass3/ODataBookStore.Web/Views/Book/Create.cshtml]
+[D:/GitHub/PRN_Ass3/ODataBookStore.Web/Views/Book/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/university/PRN231/PRN_Ass3/ODataBookStore.Web/Views/Book/Delete.cshtml]
+[D:/GitHub/PRN_Ass3/ODataBookStore.Web/Views/Book/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/university/PRN231/PRN_Ass3/ODataBookStore.Web/Views/Book/Details.cshtml]
+[D:/GitHub/PRN_Ass3/ODataBookStore.Web/Views/Book/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/university/PRN231/PRN_Ass3/ODataBookStore.Web/Views/Book/Edit.cshtml]
+[D:/GitHub/PRN_Ass3/ODataBookStore.Web/Views/Book/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/university/PRN231/PRN_Ass3/ODataBookStore.Web/Views/Book/Index.cshtml]
+[D:/GitHub/PRN_Ass3/ODataBookStore.Web/Views/Book/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/university/PRN231/PRN_Ass3/ODataBookStore.Web/Views/Home/Login.cshtml]
+[D:/GitHub/PRN_Ass3/ODataBookStore.Web/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/university/PRN231/PRN_Ass3/ODataBookStore.Web/Views/Home/Register.cshtml]
+[D:/GitHub/PRN_Ass3/ODataBookStore.Web/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/university/PRN231/PRN_Ass3/ODataBookStore.Web/Views/Press/Create.cshtml]
+[D:/GitHub/PRN_Ass3/ODataBookStore.Web/Views/Press/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/university/PRN231/PRN_Ass3/ODataBookStore.Web/Views/Press/Delete.cshtml]
+[D:/GitHub/PRN_Ass3/ODataBookStore.Web/Views/Press/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/university/PRN231/PRN_Ass3/ODataBookStore.Web/Views/Press/Details.cshtml]
+[D:/GitHub/PRN_Ass3/ODataBookStore.Web/Views/Press/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/university/PRN231/PRN_Ass3/ODataBookStore.Web/Views/Press/Edit.cshtml]
+[D:/GitHub/PRN_Ass3/ODataBookStore.Web/Views/Press/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/university/PRN231/PRN_Ass3/ODataBookStore.Web/Views/Press/Index.cshtml]
+[D:/GitHub/PRN_Ass3/ODataBookStore.Web/Views/Press/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/university/PRN231/PRN_Ass3/ODataBookStore.Web/Views/Shared/Error.cshtml]
+[D:/GitHub/PRN_Ass3/ODataBookStore.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/university/PRN231/PRN_Ass3/ODataBookStore.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/GitHub/PRN_Ass3/ODataBookStore.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/university/PRN231/PRN_Ass3/ODataBookStore.Web/Views/_ViewImports.cshtml]
+[D:/GitHub/PRN_Ass3/ODataBookStore.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/university/PRN231/PRN_Ass3/ODataBookStore.Web/Views/_ViewStart.cshtml]
+[D:/GitHub/PRN_Ass3/ODataBookStore.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/university/PRN231/PRN_Ass3/ODataBookStore.Web/Views/Shared/_Layout.cshtml]
+[D:/GitHub/PRN_Ass3/ODataBookStore.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nmadmsjff8

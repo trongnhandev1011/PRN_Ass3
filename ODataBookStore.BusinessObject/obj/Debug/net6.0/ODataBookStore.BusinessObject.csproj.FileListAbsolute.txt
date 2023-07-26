@@ -22,3 +22,15 @@ F:\university\PRN231\PRN_Ass3\ODataBookStore.BusinessObject\obj\Debug\net6.0\ODa
 F:\university\PRN231\PRN_Ass3\ODataBookStore.BusinessObject\obj\Debug\net6.0\refint\ODataBookStore.BusinessObject.dll
 F:\university\PRN231\PRN_Ass3\ODataBookStore.BusinessObject\obj\Debug\net6.0\ODataBookStore.BusinessObject.pdb
 F:\university\PRN231\PRN_Ass3\ODataBookStore.BusinessObject\obj\Debug\net6.0\ref\ODataBookStore.BusinessObject.dll
+D:\GitHub\PRN_Ass3\ODataBookStore.BusinessObject\bin\Debug\net6.0\ODataBookStore.BusinessObject.deps.json
+D:\GitHub\PRN_Ass3\ODataBookStore.BusinessObject\bin\Debug\net6.0\ODataBookStore.BusinessObject.dll
+D:\GitHub\PRN_Ass3\ODataBookStore.BusinessObject\bin\Debug\net6.0\ODataBookStore.BusinessObject.pdb
+D:\GitHub\PRN_Ass3\ODataBookStore.BusinessObject\obj\Debug\net6.0\ODataBookStore.BusinessObject.csproj.AssemblyReference.cache
+D:\GitHub\PRN_Ass3\ODataBookStore.BusinessObject\obj\Debug\net6.0\ODataBookStore.BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\PRN_Ass3\ODataBookStore.BusinessObject\obj\Debug\net6.0\ODataBookStore.BusinessObject.AssemblyInfoInputs.cache
+D:\GitHub\PRN_Ass3\ODataBookStore.BusinessObject\obj\Debug\net6.0\ODataBookStore.BusinessObject.AssemblyInfo.cs
+D:\GitHub\PRN_Ass3\ODataBookStore.BusinessObject\obj\Debug\net6.0\ODataBookStore.BusinessObject.csproj.CoreCompileInputs.cache
+D:\GitHub\PRN_Ass3\ODataBookStore.BusinessObject\obj\Debug\net6.0\ODataBookStore.BusinessObject.dll
+D:\GitHub\PRN_Ass3\ODataBookStore.BusinessObject\obj\Debug\net6.0\refint\ODataBookStore.BusinessObject.dll
+D:\GitHub\PRN_Ass3\ODataBookStore.BusinessObject\obj\Debug\net6.0\ODataBookStore.BusinessObject.pdb
+D:\GitHub\PRN_Ass3\ODataBookStore.BusinessObject\obj\Debug\net6.0\ref\ODataBookStore.BusinessObject.dll

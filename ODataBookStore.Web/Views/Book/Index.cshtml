@@ -17,21 +17,43 @@
 
 <table class="table mt-4" id="book-table">
     <thead>
-    <tr>
-        <th>Id</th>
-        <th>ISBN</th>
-        <th>Title</th>
-        <th>Author</th>
-        <th>Price</th>
-        <th>Press name</th>
-    </tr>
+        <tr>
+            <th>Id</th>
+            <th>ISBN</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>Press name</th>
+            <th>Action</th>
+        </tr>
     </thead>
 </table>
 
 @section Scripts {
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function () {
+        function goToEditPage(id) {
+            location.assign(`https://localhost:7261/Book/Edit/${id}`)
+        }
+
+        function goToDetailPage(id) {
+            location.assign(`https://localhost:7261/Book/Details/${id}`)
+        }
+
+        function deleteBook(id) {
+            fetch(`https://localhost:7129/odata/books/${id}`, {
+                method: "DELETE",
+                headers: {
+                    "Content-Type": "application/json",
+                    "Authorization": "Bearer " + localStorage.getItem('book_token')
+                }
+            }).then(() => {
+                $("#book-table").DataTable().destroy();
+                fetchBookData();
+            })
+        }
+
+        function fetchBookData() {
             fetch("https://localhost:7129/odata/books", {
                 method: "GET",
                 headers: {
@@ -40,14 +62,44 @@
                 }
             }).then((response) => response.json())
                 .then(data => {
-
                     const items = data.value;
                     $("#book-table").DataTable({
                         data: items.map((item) => [item.Id, item.ISBN, item.Title, item.Author, item.Price, item.PressId]),
+                        columns: [
+                            { title: "ID" },
+                            { title: "ISBN" },
+                            { title: "Title" },
+                            { title: "Author" },
+                            { title: "Price" },
+                            { title: "PressId" },
+                            {
+                                title: "Action",
+                                render: function (data, type, row) {
+                                    if (localStorage.getItem('role') == 1) return '';
+                                    // Assuming you want to create a button for each row
+                                    return '<div>' + editBtn(row[0]) + detailBtn(row[0]) + deleteBtn(row[0]) + '</div> ';
+                                },
+                            },
+                        ],
                     });
 
                 })
-           
+        }
+
+        const editBtn = (id) => {
+            return '<button class="btn btn-primary" onclick = "goToEditPage(' + id + ')" style = "color: black; padding: 5px 15px !important; margin-right: 20px"> Edit </button>';
+        }
+
+        const deleteBtn = (id) => {
+            return '<button class="btn btn-primary" onclick = "deleteBook(' + id + ')" style = "color: black; padding: 5px 15px !important; margin-right: 20px"> Delete </button>';
+        }
+
+        const detailBtn = (id) => {
+            return '<button class="btn btn-primary" onclick = "goToDetailPage(' + id + ')" style = "color: black; padding: 5px 15px !important; margin-right: 20px"> Details </button>'
+        }
+
+        $(document).ready(function () {
+            fetchBookData()
         });
     </script>
 }

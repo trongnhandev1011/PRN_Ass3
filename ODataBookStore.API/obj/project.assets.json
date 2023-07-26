@@ -2652,23 +2652,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kiman\\.nuget\\packages\\": {},
+    "C:\\Users\\ZENBOOK\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.API\\ODataBookStore.API.csproj",
+      "projectUniqueName": "D:\\GitHub\\PRN_Ass3\\ODataBookStore.API\\ODataBookStore.API.csproj",
       "projectName": "ODataBookStore.API",
-      "projectPath": "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.API\\ODataBookStore.API.csproj",
-      "packagesPath": "C:\\Users\\kiman\\.nuget\\packages\\",
-      "outputPath": "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.API\\obj\\",
+      "projectPath": "D:\\GitHub\\PRN_Ass3\\ODataBookStore.API\\ODataBookStore.API.csproj",
+      "packagesPath": "C:\\Users\\ZENBOOK\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\PRN_Ass3\\ODataBookStore.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\kiman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ZENBOOK\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2677,14 +2677,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.DataAccess\\ODataBookStore.DataAccess.csproj": {
-              "projectPath": "F:\\university\\PRN231\\PRN_Ass3\\ODataBookStore.DataAccess\\ODataBookStore.DataAccess.csproj"
+            "D:\\GitHub\\PRN_Ass3\\ODataBookStore.DataAccess\\ODataBookStore.DataAccess.csproj": {
+              "projectPath": "D:\\GitHub\\PRN_Ass3\\ODataBookStore.DataAccess\\ODataBookStore.DataAccess.csproj"
             }
           }
         }
@@ -2733,7 +2734,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
